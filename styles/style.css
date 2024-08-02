@@ -78,3 +78,194 @@ color: rgb(230, 83, 60);
     flex-wrap: 800;
 }
 
+/* Banner Section Start */
+
+.banner-section {
+    margin-top: 20px;
+    min-height: 500px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left-side {
+    margin-top: 30px;
+    width: 400px;
+    align-items: self-start;
+}
+
+.banner-heading {
+    color: white;
+    font-size: 60px;
+    line-height: 62px;
+}
+
+.banner-heading span {
+    color: white;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Miama', sans-serif;
+}
+
+.banner-description {
+    margin-top: 50px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.join-btn {
+    margin-top: 30px;
+    width: 170px;
+    height: 35px;
+    background-color: rgb(230, 83, 60);
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 50px;
+    border: none;
+}
+
+.download-btn {
+    margin-top: 30px;
+    width: 170px;
+    height: 35px;
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-left: 0.5rem;
+}
+
+
+
+/* Banner Right Side Design Start */
+
+
+.container {
+    position: relative;
+    width: 320px;
+    margin-left: 80px;
+}
+
+.container img {
+    width: 100%;
+    display: block;
+    height: 500px;    
+}
+
+.text-overlay {
+    position: absolute;
+    
+}
+
+.overlay-top-right {
+
+    top: 150px;
+    left: 150px;
+}
+
+.overlay-bottom-left {
+    bottom: 10px;
+    left: 0px;
+    
+}
+
+.text-overlay {
+    width: 200px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.round {
+    
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: 30px;
+    margin-left: 8px;
+
+}
+
+.badge1 {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(57, 57, 57);
+    padding: 4px 30px 15px 4px;
+    border-radius: 15px;
+    
+   
+}
+
+.badge1 .top-part {
+    font-size: 23px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    
+}
+
+.badge1 .bottom-part {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
+.badge2 {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    background-color: rgb(57, 57, 57, 0.5);
+    padding: 10px 10px 30px 5px ;
+    border-radius: 5px;
+    color: #ffffff;
+
+    
+}
+
+.badge2-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.badge2 .top-part {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+
+.badge2 .bottom-part {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
