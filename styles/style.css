@@ -891,6 +891,67 @@ form {
 
 
 
+/*My Uniqe Section*/
+
+.class-schedule {
+    padding: 20px;
+    background-color: #191919;
+    max-width: 90%;
+    margin: 50px auto;
+    border-radius: 20px 20px 20px 20px;
+   
+}
+
+.class-schedule h2 {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.schedule-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.day {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(230, 83, 60, 0.09);
+    border-radius: 20px 20px 20px 20px;
+    
+}
+
+.day h3 {
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.day ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.day ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    
+   
+}
+
+.day ul li:last-child {
+    border-bottom: none;
+}
+
+
 
 
 
