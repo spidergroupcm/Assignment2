@@ -1038,3 +1038,468 @@ form {
 
 
 
+
+
+
+
+/* Responsive Web Design Start From Here */
+
+
+
+
+@media (max-width:576px) {
+
+    /* Navbar Section */
+    
+        .navbar {
+            width: 100%;
+            margin-top: 3rem;
+        }
+        .navbar .logo {
+            font-size: 3rem;
+            margin-left: 1rem;
+        }
+    
+    
+        .nav-options {
+            border: none;
+        }
+        .nav-options-title {
+            display: none;
+        }
+    
+        .nav-options i {
+            color: white;
+            font-size: 2.3rem;
+            display: block;
+            margin-right: auto;
+        }
+            
+    
+        /* Banner Section */
+    
+    
+        .banner-section{
+        
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 2.8rem;
+            margin-left: 2rem;
+            
+        }
+    
+        .banner-left-side {
+            width: 90%;
+        }
+    
+        .banner-left-side .banner-heading {
+            font-size: 3.5rem;
+            line-height: 3.5rem;
+            margin-top: 0px;
+        
+        }
+    
+        .banner-left-side .banner-heading span {
+            font-size: 8rem;
+        }
+    
+        .banner-left-side .banner-description {
+            margin-top: 0px;
+            font-size: 1.5rem;
+        }
+    
+        .banner-left-side .join-btn {
+            margin-top: 1rem;
+            width: 10rem;
+            height: 4rem;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    
+        .banner-left-side .download-btn {
+            margin-top: 1rem;
+            width: 10rem;
+            height: 4rem;
+            margin-left: 0.8rem;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    
+    /* Banner Image Part */
+    
+        .container {
+            width: 90%;
+      
+        }
+    
+        .banner-section .container {
+            margin-top: 3rem;
+            margin-left: 0px;
+        }
+    
+       
+    
+        .gim-benifit-text-heading {
+            width: 90%;
+            margin-top: 3rem;
+            font-size: 2.5rem;
+            font-weight: 500px;
+            color: #ffffff;
+            margin-bottom: 1px;
+            text-align: center;
+        }
+    
+        .overlay-top-right {
+    
+            top: 90px;
+            left: 230px;
+        }
+        .overlay-bottom-left {
+    
+            top: 250px;
+            right: 230px;
+        }
+    
+    
+    
+    
+        .gim-benifit-text-description {
+            font-size: 1rem;
+            font-weight: 300px;
+            color: rgba(255, 255, 255, 0.5);
+            width: 350px;
+            text-align: center;
+            margin-bottom: 20px;
+            
+        
+        }
+    
+    
+        .gim-benifit-text-heading {
+            font-size: 2rem;
+        }
+    
+        .gim-benifit-images {
+            width: 100%;
+        }
+    
+        .gim-benifit-images-content {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .gim-benifit-images-heading {
+            color: #ffffff;
+            font-weight: 600px;
+            font-size: 1.7rem;
+            line-height: 1.8rem;
+            
+        }
+        
+        .gim-benifit-images-description {
+            color:  rgba(255, 255, 255, 0.5);
+            font-weight: 300;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            width: 80%;
+            
+        }
+       
+    
+    /* Run Section Start */
+    
+        .run {
+            
+            margin-top: 3rem;
+            width: 100%;
+            background-color: black;
+        }
+    
+        .run-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            
+        }
+    
+        .run-section-left-side {
+            width: 90%;
+        
+            
+        }
+        
+        .run-section-left-side .run-section-heading {
+            margin-top: 1rem;
+            font-size: 50px;
+            
+            
+        }
+    
+        .run-section-left-side .run-section-description {
+            font-size: 1.3rem;
+            margin-top: 10px;
+            
+        }
+    
+        .run-section-left-side  button {
+        
+            width: 90%;
+            height: 70px;
+            font-size: 2rem;
+        }
+    
+    
+        .run-section-right-side {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-right: 70px;
+            
+            
+        }
+    
+    
+        .run-section-right-side img {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 1rem;
+            margin-right: 3rem;
+                
+    }
+    
+    
+    /*  .bmi-calculator-heading .bmi-calculator-description  */
+    
+    .bmi {
+        width: 100%;
+        
+        }
+    
+    .bmi-calculator {
+        width: 90%;
+        
+    }
+    
+    
+    .main-calculator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .team-photo .first-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .team-photo .second-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .main-calculator {
+       
+    }
+    
+    
+    
+    .cal-left-side {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      
+    }
+    
+    .cal-left-side h2 {
+        text-align: left;
+        width: 340px;
+    }
+    
+    .cal-left-side table {
+        width: 340px;
+    }
+    
+    
+    .cal-right-side {
+        width: 105%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    
+        
+    }
+    
+    
+    .calculation-part h1 {
+        text-align: left;
+        width: 340px;
+    }
+    
+    /* Our Team Section */
+    
+    .our-team {
+        width: 100%;
+        
+    }
+    
+    .meet-our-team {
+        width: 70%;
+        
+    }
+    
+    
+    .team-photo  {
+        width: 70%;
+    }
+    
+    .first-row-p1 {
+        display: none;
+        order: 6;
+    }
+    
+    .second-row-p4 {
+        display: none;
+        order: 4;
+    }
+    
+    
+    
+    
+    .second-row-p5 {
+        order: 0;
+    }
+    
+    .first-row-p3 {
+        order: 2;
+    }
+    
+    
+    
+    
+    .footer {
+        width: 100%;
+        
+    }
+    
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        
+    }
+    
+    /* First Column Start */
+    .footer-section  .first-column {
+        margin-right: 15%;
+        width: 95%;
+        margin-top: 2rem;
+    }
+    
+    .footer-section  .first-column h1 {
+        font-size: 3.5rem;
+    }
+    
+    .footer-section  .first-column p {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    
+    
+    /* Second Column Start */
+    
+    .footer-section  .second-column {
+        margin-right: 50%;
+        width: 60%;
+    }
+    
+    .footer-section  .second-column h2 {
+        font-size: 1.9rem;
+    }
+    
+    .footer-section  .second-column p {
+        font: size 1.1rem; ;
+    }
+    
+    /* Third Column Start */
+    .footer-section  .third-column {
+        margin-right: 50%;
+        width: 60%;
+    }
+    
+    .footer-section  .third-column h2 {
+        font-size: 1.9rem;
+    }
+    
+    .footer-section  .third-column p {
+        font: size 1.1rem; ;
+    }
+    
+    
+    .copyrite-section p {
+        text-align: left;
+        color: #ff4a3c;
+        width: 67%;
+        font-size: 1rem;
+        margin-left: 2px;
+    }
+    
+    
+    }
+    
+    
+    
+    
+    
+    @media (max-width:425px) {
+    
+        .banner-left-side .join-btn {
+            margin-top: 1rem;
+            width: 10.8rem;
+            height: 4rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    
+        .banner-left-side .download-btn {
+            margin-top: 1rem;
+            width: 10.8rem;
+            height: 4rem;
+            margin-left: 0.8rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    
+    
+      .copyrite-section p {
+        margin-left: 2rem;
+      }
+    
+    
+      .overlay-top-right {
+    
+        top: 90px;
+        left: 180px;
+    }
+    
+    }
+
+
