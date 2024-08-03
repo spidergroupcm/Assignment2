@@ -953,6 +953,86 @@ form {
 
 
 
+/* Footer Section Start*/
+
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    margin-top: 3rem;
+}
+
+.footer-section {
+    width: 88%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-color: #191919;
+    
+    
+    
+}
+
+.first-column h1 {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 4px;
+    color: #E6533C;
+}
+
+.first-column p {
+    
+    font-size: 0.9rem;
+    
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    width: 75%;
+}
+
+
+
+.second-column {
+    width: 25%;
+    
+}
+
+.second-column h2 {
+    color: #FFFFFF;
+}
+
+.second-column p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.third-column {
+    width: 25%;
+}
+
+.third-column h2 {
+    color: #FFFFFF;
+}
+
+.third-column p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-part {
+    background-color: #191919;
+}
+
 
 
 
