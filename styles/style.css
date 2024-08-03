@@ -417,8 +417,6 @@ color: rgb(230, 83, 60);
 }
 
 
-
-
 .run-section-right-side img {
     width: 85%;
     height: 100%;
@@ -428,6 +426,470 @@ color: rgb(230, 83, 60);
     margin-left: 5.3rem;
 
 }
+
+
+/* BMI Heading Section */
+
+.bmi {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-calculator {
+    width: 55%;
+    text-align: left;
+}
+
+.bmi-calculator .bmi-calculator-heading {
+    margin-top: 2rem;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.bmi-calculator .bmi-calculator-description {
+    font-size: 1rem;
+    color:  rgba(255, 255, 255, 0.5);
+    margin-bottom: 4rem;
+}
+
+/* Main Calculaator Part */
+
+.calculator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+
+}
+
+.main-calculator {
+   
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    
+}
+
+.cal-left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(34, 34, 34);
+    color: #ffffff;
+    
+}
+
+
+table {
+   
+    width: 50%;
+    border-collapse: collapse;
+    
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.cal-right-side {
+    width: 50%;
+    background-color: rgb(34, 34, 34);
+}
+
+
+
+
+
+.calculation-part {
+    width: 80%;
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgb(34, 34, 34);
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+.calculation-part h1 {
+    margin: 0;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+}
+
+.calculation-part p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    color: rgb(159, 144, 144);
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.first-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.second-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.first-row  input {
+
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 50%;
+}
+
+.second-row  input {
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color:  #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 45.4%;
+}
+
+.second-row select {
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color:  #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 50%;
+}
+
+
+.third-row select {
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color:  #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.fourth-row {
+    display: contents;
+    justify-content: center;
+    align-items: start;
+}
+
+.fourth-row button {
+    background-color: #ff4a3c;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 40%;
+    margin-top: 1rem;
+    align-items: start;
+}
+
+
+/* Our Team Section Start */
+
+.our-team {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.meet-our-team {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet-our-team  .meet-our-team-heading {
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 1px;
+    font-weight: 700;
+}
+
+.meet-our-team  .meet-our-team-description {
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgb(159, 144, 144);
+    margin-bottom: 3rem;
+}
+
+
+
+
+.meet-our-team-photo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-photo {
+    width: 85.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    border-radius: 20px;
+ 
+}
+
+.team-photo .first-row {
+    margin-top: 1rem;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+
+}
+
+.team-photo .first-row img {
+    width: 360px;
+    height: 300px;
+    border-radius: 30px;
+   
+}
+
+.team-photo .second-row img {
+    width: 360px;
+    height: 290px;
+    border-radius: 30px;
+   
+}
+
+.team-photo .second-row {
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+} 
+
+
+
+.first-row-p1 {
+    position: relative;
+    
+}
+
+
+.first-row-p1 .row-content {
+    position: absolute;
+    color: #FFFFFF;
+    top: 200px;
+    left: 25px;
+}
+
+.first-row-p1 .row-content h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+.first-row-p1 .row-content p {
+    
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+
+.first-row-p2 {
+    position: relative;
+    
+}
+
+
+.first-row-p2 .row-content {
+    position: absolute;
+    color: #FFFFFF;
+    top: 200px;
+    left: 25px;
+}
+
+.first-row-p2 .row-content h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+.first-row-p2 .row-content p {
+    
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+
+.first-row-p3 {
+    position: relative;
+    
+}
+
+
+.first-row-p3 .row-content {
+    position: absolute;
+    color: #FFFFFF;
+    top: 200px;
+    left: 25px;
+}
+
+.first-row-p3 .row-content h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+.first-row-p3 .row-content p {
+    
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+
+
+
+.second-row-p4 {
+    position: relative;
+    
+}
+
+
+.second-row-p4 .row-content {
+    position: absolute;
+    color: #FFFFFF;
+    top: 200px;
+    left: 25px;
+}
+
+.second-row-p4 .row-content h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+.second-row-p4 .row-content p {
+    
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+.second-row-p5 {
+    position: relative;
+    
+}
+
+.second-row-p5 .row-content {
+    position: absolute;
+    color: #FFFFFF;
+    top: 200px;
+    left: 25px;
+}
+
+.second-row-p5 .row-content h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+.second-row-p5 .row-content p {
+    
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+.second-row-p6 {
+    position: relative;
+    
+}
+
+
+.second-row-p6 .row-content {
+    position: absolute;
+    color: #FFFFFF;
+    top: 200px;
+    left: 25px;
+}
+
+.second-row-p6 .row-content h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+.second-row-p6 .row-content p {
+    
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+
 
 
 
